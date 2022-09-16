@@ -1,0 +1,150 @@
+/* TODO: 보기 좋은 나만의 아고라 스테이츠를 위해서 CSS를 수정하세요. */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    /* linear-gradient( direction, , color2, …, color3 ) */
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(cloud.jpeg) ;
+    background-size: cover;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 30px;
+    font-family: 'Jua', sans-serif;
+    /* opacity: 0.7; */
+}
+
+section.form__container {
+    display: flex;
+    font-size: 20px;
+}
+
+.discussions_cointainer {
+    display: flex;
+    width: 800px;
+    overflow: auto;
+}
+
+.discussion_cointainer {
+    display: flex;
+    width: 800px;
+    height: 100px;
+    justify-content: space-between;
+    overflow: auto;
+}
+
+.discussion_avatar-wrapper > img {
+    border-radius: 50%;
+    width: 48px;
+}
+
+.discussion_avatar-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.iscussion_content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; /* space-around, space-evenly도 사용 가능함! */
+}
+
+.discussion_information {
+    text-align: right;
+}
+
+.discussion_answerd {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+h1 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 80px;
+    font-weight: 100;
+    padding: 50px 0px 20px 0px;
+    
+}
+
+section.discussion__wrapper {
+    display: flex;
+    flex: 4;
+    width: 670px;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 20px;
+    /* background-color: #809bc4*/ 
+    background: linear-gradient( 45deg, white, #B9B0D6, #f5cfe9, #dceaf9 )
+    
+}
+
+img {
+    border-radius: 50%;
+    width: 48px;
+    box-shadow: 5px 5px 5px rgb(0 0 0);
+    transition: 2s;
+}
+
+
+div.discussion__avatar--wrapper {
+    flex-basis: 70px;
+    width: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1.5px dashed #718bff;
+    background-color: darkgray;
+    border-radius: 10px;
+    margin: 15px;
+    height: 90px;
+    
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+.form__input--wrapper {
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+#name {
+    border-radius: 20px;
+    height: 30px;
+}
+
+#story {
+    border-radius: 20px;
+    height: 30px;
+}
+
+#submit {
+    width: 350px;
+    height: 25px;
+    font-family: 'Jua', sans-serif;
+    border-radius: 20px;
+    background-color: lavender;
+    
+}
+
+.form__submit {
+    padding-bottom: 20px;
+}
